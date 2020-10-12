@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />  
+        <title>Feedback Form</title>  
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700i&display=swap" rel="stylesheet">
+    </head>
+    <body>            
+        <form method="post" action="G:\Academics\SEM 5\PL3\Prac 5\Practical_6A\submit.html" style="text-align: center;">
+            
+            <div style="padding-bottom: 18px;font-size : 56px;">Student Feedback</div>
+
+            <!-- <aside style="width: 12%;padding-left: 15px;margin-left: 30%;float: left;text-align: left;"> -->
+                <div style="text-align: center;">
+                    <p>Faculty Name</p>
+                    <input type="text" style="max-width: 100%;" placeholder="Enter Name" required/>
+                </div>
+    
+                <div style="text-align: center;">
+                    <p>Course Title</p>
+                    <input type="text" style="max-width: 100%;" placeholder="Enter Course" required/>
+                </div>
+    
+                <div style="text-align: center;">
+                    <p>Course code</p>
+                    <input type="text" style="max-width: 100%;" placeholder="Enter Code" required/>
+                </div>
+                
+                
+                
+                
+            <!-- </aside> -->
+            
+            <!-- <aside  style="width: 20%;padding-left: 15px;margin-right: 25%;float: right;text-align: left;"> -->
+                <div style="padding-bottom: 18px;margin-top: 2%;">
+                    <p>What did you expect from the course?</p>
+                    <select style="max-width : 500px;" >
+                        <option>Industry Knowledge</option>
+                        <option>Computational Knoewledge</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+    
+                <div style="padding-bottom: 18px;">
+                    <p>How much satisfied are you with Faculty-Understanding of the course?</p>
+                    <select style="max-width : 500px;">
+                        <option>Very good</option>
+                        <option>Good</option>
+                        <option>Fair</option>
+                        <option>Poor</option>
+                        <option>Very poor</option>
+                    </select>
+                </div>
+    
+                <div style="padding-bottom: 18px;">
+                    <p>How much satisfied are you with the efforts invested by the faculty in course?</p>
+                    <select style="max-width : 500px;" >
+                        <option>Very good</option>
+                        <option>Good</option>
+                        <option>Fair</option>
+                        <option>Poor</option>
+                        <option>Very poor</option>
+                    </select>
+                </div>
+    
+                <div style="padding-bottom: 18px;">
+                    <p>How much satisfied are you with the communication by the faculty?</p>
+                    <select id="data_11" name="data_11" style="max-width : 500px;" class="form-control">
+                        <option>Very good</option>
+                        <option>Good</option>
+                        <option>Fair</option>
+                        <option>Poor</option>
+                        <option>Very poor</option>
+                    </select>
+                </div>
+    
+                <div style="padding-bottom: 18px;">
+                    <p>Overall Performance of Faculty</p>
+                    <select style="max-width : 500px;">
+                        <option>Very good</option>
+                        <option>Good</option>
+                        <option>Fair</option>
+                        <option>Poor</option>
+                        <option>Very poor</option>
+                    </select>
+                </div>
+            <!-- </aside> -->
+            
+            <div style="text-align: center;">
+                <p> <label for="img">Upload Marksheet:</label></p>
+                <input name="file1" type="file" accept="application/pdf">
+            </div>
+
+            <!-- <div style="padding-bottom: 18px;margin-top: 35%;"> -->
+            <div>
+                <br>
+                <br>
+                <textarea name="message" rows="10" cols="30">Suggestions(if any):</textarea>
+            </div>
+            <br>
+            <input value="Submit" type="submit"/><button type="reset" value="Reset">Reset</button><br><br>
+        </form>
+    </body>
+</html>
