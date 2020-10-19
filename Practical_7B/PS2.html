@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        video{
+            width: 70%;
+        }
+
+        .container{
+            padding-left: 20%;
+            padding-right: 20%;
+            align-items: center;
+        }
+
+        .header-class{
+            text-align: center;
+        }
+
+        .nav-class{
+            align-self:center;
+            text-align: center;
+            display: inline;
+        }
+
+        .audio-players{
+            display: inline;
+        }
+
+        .credits{
+            display: inline;
+        }
+    </style>
+    <title>Video Page</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header-class">
+            <h2>Video Section</h2>
+        </header>
+        
+        <nav style="display: flex;align-items: right;">
+            <ul><a href="PS1.html">Audio Section</a></ul>
+            <ul><a href="PS2.html">Video Section</a></ul>
+            <ul><a href="PS3.html">YouTube Section</a></ul>
+            <ul><a href="PS4.html">Resources Section</a></ul>
+            <ul><a href="https://www.spotify.com/in/" target="">Music Section</a></ul>
+            <ul><a href="lyrics.html" target="">Lyrics Section</a></ul>
+        </nav>
+
+        <div class="audio-players">
+            <h4>Player 1</h4>
+            <video src="./Resources/samplevideo1.mp4" controls autoplay loop> </video>
+
+            <h4>Player 2</h4>
+            <video src="./Resources/samplevideo2.mp4" muted autoplay></video>
+
+            <h4>Player 3</h4>
+            <video controls>
+                <source src="https://www.youtube.com/watch?v=bR8sE9ubyTI">
+                <source src="./Resources/samplevideo2.mp4"> 
+            </video>
+
+            <h4>Player 4</h4>
+            <video src="https://www.youtube.com/watch?v=XsX3ATc3FbA" controls>
+                <track src="./Resources/Following_(1998)_en.srt" kind="subtitles" srclang="en" label="English" default>
+            </video>
+        </div>
+        <br><br>
+        <div class="credits">
+            <img src="./Resources/following.jpeg" alt="">
+            <h4>Movie Name   : Following</h4>
+            <h4>Release Year : 1998</h4>
+            <h4>Director     : Christopher Nolan</h4>
+            <h4>Musician     : David Julyan</h4>
+        </div>
+    </div>
+
+    <hr>
+    <footer style="margin:5% 5% 1% 5%;font-size: large;display: flex;justify-content: space-between;">
+        <ul>Developed by : Aryan Mali</ul>
+        <ul>Contact : aryanrvmali@gmail.com</ul>
+        <ul>LinkedIn : <a href="https://www.linkedin.com/in/aryan-mali-22a501172/" target="_blank">Aryan Mali</a></ul>
+        <ul>GitHub : <a href="https://github.com/aryanmali" target="_blank">aryanmali</a></ul>
+    </footer>
+</body>
+</html>
