@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body{
+                background-color: #869db9;
+            }
+
+            .container{
+                padding-left: 20%;
+                padding-right: 20%;
+                align-items: center;
+            }
+
+            .header-class{
+                text-align: center;
+            }
+
+            .nav-class{
+                align-self:center;
+                text-align: center;
+                display: inline;
+            }
+
+            .list{
+                display: inline; 
+                font-size: larger;
+            }
+
+            nav{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border: #333333;
+                border-radius: 15px;
+                background-color: #4d7185;
+                display: flex; 
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+                /* font-size: larger; */
+            }
+
+            dt{
+                font-weight: bolder;
+            }
+
+            ul a{
+                display: block;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+                font-size: larger;
+            }
+
+            ul a:hover {
+                background-color: #2a5b83;
+            }
+
+            h1{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: bolder;
+            }
+
+            h3{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                font-size: 21px;
+                background-color: #577499;
+            }
+            th, td {
+                padding: 5px;
+                text-align: left;    
+            }
+
+            footer{
+                margin:3% 2%;
+                font-size: large;
+                display: flex;
+                justify-content: space-between;
+                list-style-type: none;
+                /* background-color: rgb(64, 118, 143); */
+            }
+
+            hr{
+                height: 2px;
+                color: #3f5e86;
+                background-color: #375275;
+            }
+        </style>
+
+        <title>Expenses</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <header class="header-class">
+                <h1>MONTHLY EXPENSES</h1>
+                <h3>BUDGET DETAILS PAGE</h3>
+            </header>
+            
+            <nav>
+                <ul><a href="7C-PS1.html">C LANGUAGE</a></ul>
+                <ul><a href="7C-PS2.html">CSE DEPT</a></ul>
+                <ul><a href="7C-PS3.html">BUDGET</a></ul>
+            </nav>
+
+            <br><br>
+            <section>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sr. No.</th>
+                                <th>Expenditure Title</th>
+                                <th>Expenditure Amount</th>
+                                <th>Total Allocated Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Internet</td>
+                                <td>250</td>
+                                <th rowspan="5">7000</th>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Gym</td>
+                                <td>600</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Room</td>
+                                <td>1800</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Mess</td>
+                                <td>2100</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Recreation</td>
+                                <td>1000</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="2">Total Expenditure:</th>
+                                <th>5750</th>
+                                <th>Savings: 1250</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+            <br>
+            <hr>
+
+            <section>
+                <div style="font-size: smaller;">
+                    <h2>Author Information:</h2>
+                    <h3>Name: Aryan Mali</h3>
+                    <h3>Class: TYCSE</h3>
+                    <h3>PRN: 2018BTECS00063</h3>
+                    <h3>Place: Sangli</h3>
+                </div>
+            </section>
+        
+            <hr>
+        <footer>
+            <li>Developed by : <b>Aryan Mali</b></li>
+            <li>Contact : <b>aryanrvmali@gmail.com</b></li>
+            <li>LinkedIn : <a href="https://www.linkedin.com/in/aryan-mali-22a501172/" target="_blank" style="color: blue;">Aryan Mali</a></li>
+            <li>GitHub : <a href="https://github.com/aryanmali" target="_blank" style="color: blue;">aryanmali</a></li>
+        </footer>
+
+        </div>
+
+        
+    </body>
+</html>
